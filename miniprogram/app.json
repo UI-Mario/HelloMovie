@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/cart/cart",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E54847",
+    "navigationBarTitleText": "HelloWX",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#E54847",
+    "list": [{
+      "pagePath": "pages/movie/movie",
+      "text": "movie",
+      "iconPath": "images/ic_catefory_normal.png",
+      "selectedIconPath": "images/ic_catefory_pressed.png"
+    },{
+      "pagePath": "pages/cart/cart",
+      "text": "cart",
+      "iconPath": "images/cart-off.png",
+      "selectedIconPath": "images/cart-on.png"
+    },{
+      "pagePath": "pages/profile/profile",
+      "text": "pro",
+      "iconPath": "images/my-off.png",
+      "selectedIconPath": "images/my-on.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
